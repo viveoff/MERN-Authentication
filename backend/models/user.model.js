@@ -15,11 +15,11 @@
         required: true
     },
     lastlogin: {
-        typeo: Date,
+        type: Date,
         default: Date.now
     },
     isVerified: {
-        typeo: Boolean,
+        type: Boolean,
         default: false
     },
     resetPasswordToken: String,
